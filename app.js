@@ -68,6 +68,15 @@ router.get('/park/05', function (req, res) {
 router.get('/park/06', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/p06.html'));
 });
+router.get('/park/07', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/p07.html'));
+});
+router.get('/park/08', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/p08.html'));
+});
+router.get('/park/09', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/p09.html'));
+});
 
 
 
