@@ -46,51 +46,50 @@ router.get('/byeon/09', function (req, res) {
 
 
 router.get('/park', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p00.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p00.html'));
 });
 router.get('/park/01', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p01.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p01.html'));
 });
 router.get('/park/02', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p02.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p02.html'));
 });
 
 router.get('/park/03', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p03.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p03.html'));
 });
-
 router.get('/park/04', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p04.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p04.html'));
 });
 router.get('/park/05', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p05.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p05.html'));
 });
 router.get('/park/06', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p06.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p06.html'));
 });
 router.get('/park/07', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p07.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p07.html'));
 });
 router.get('/park/08', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p08.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p08.html'));
 });
 router.get('/park/09', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p09.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p09.html'));
 });
 router.get('/park/10', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p10.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p10.html'));
 });
 router.get('/park/11', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p11.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p11.html'));
 });
 router.get('/park/12', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p12.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p12.html'));
 });
 router.get('/park/13', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p13.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p13.html'));
 });
 router.get('/park/14', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/p14.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p14.html'));
 });
 
 
