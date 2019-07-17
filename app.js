@@ -64,8 +64,8 @@ router.get('/park/04', function (req, res) {
 router.get('/park/05', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p05.html'));
 });
-router.get('/park/06', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/park/p06.html'));
+router.get('/park/project00', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/park/project00.html'));
 });
 router.get('/park/07', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p07.html'));
@@ -90,6 +90,9 @@ router.get('/park/13', function (req, res) {
 });
 router.get('/park/14', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p14.html'));
+});
+router.get('/park/project01', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/park/project01.html'));
 });
 
 
