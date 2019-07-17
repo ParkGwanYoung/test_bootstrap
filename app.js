@@ -86,7 +86,7 @@ router.get('/park/12', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p12_collapse.html'));
 });
 router.get('/park/13', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/park/p13.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p13_carousel.html'));
 });
 router.get('/park/14', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p14.html'));
