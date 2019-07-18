@@ -127,7 +127,8 @@ router.get('/park/17', function (req, res) {
 });
 router.get('/detail', function (req, res) {
     console.log(req.query.email);
-    res.send('Request parameters : '+req.query.email)
+    res.send('<br>Request parameters : '+req.query.email + '<br>Request 비밀번호 : ' + req.query.pwd  +'<br>Request 체크박스 : '+ req.query.vehicle
+    + '<br>Request 라디오 : '+ req.query.optradio +'<br>Request 선택메뉴 : '+ req.query.sel1)
     });
 router.get('/park/18', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p18.html'));
