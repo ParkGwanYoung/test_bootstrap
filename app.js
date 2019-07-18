@@ -161,19 +161,48 @@ router.get('/park/16', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p16_collapse.html'));
 });
 router.get('/park/17', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/park/p17.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p17_formgroup.html'));
+});
+router.get('/detail', function (req, res) {
+    console.log(req.query.email);
+    res.send('<br>Request parameters : ' + req.query.email + '<br>Request 비밀번호 : ' + req.query.pwd + '<br>Request 체크박스 : ' + req.query.vehicle
+        + '<br>Request 라디오 : ' + req.query.optradio + '<br>Request 선택메뉴 : ' + req.query.sel1)
+});
+router.get('/email', function (req, res) {
+    res.send('Request site : ' + req.query.username + '<br>Request Something clever : ' + req.query.something_clever)
 });
 router.get('/park/18', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/park/p18.html'));
+    console.log(req.query.username);
+    res.sendFile(path.join(__dirname + '/view/park/p18_inputgroup.html'));
+});
+router.get('/park/project02', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/park/project02.html'));
+});
+router.get('/first', function (req, res) {
+    console.log(req.query.email);
+    res.send('<br>Request 이메일 : ' + req.query.email + '<br>Request 비밀번호 : ' + req.query.password + '<br>Request 아이디기억 : ' + req.query.remember
+        )
+});
+router.get('/second', function (req, res) {
+    console.log(req.query.email);
+    res.send('<br>Request 이메일 : ' + req.query.email + '<br>Request 비밀번호 : ' + req.query.password + '<br>Request 정보 : ' + req.query.info
+        )
+});
+router.get('/third', function (req, res) {
+    console.log(req.query.email);
+    res.send('<br>Request 리스트 : ' + req.query.sel + '<br>Request 다중리스트 : ' + req.query.sel_multiple + '<br>Request 라디오버튼 : ' + req.query.radio
+        )
+});
+router.get('/fourth', function (req, res) {
+    console.log(req.query.email);
+    res.send('<br>Request parameters : ' + req.query.email + '<br>Request 비밀번호 : ' + req.query.pwd + '<br>Request 체크박스 : ' + req.query.vehicle
+        + '<br>Request 라디오 : ' + req.query.optradio + '<br>Request 선택메뉴 : ' + req.query.sel1)
 });
 router.get('/park/19', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/park/p19.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p19_components.html'));
 });
 router.get('/park/20', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/park/p20.html'));
-});
-router.get('/park/21', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/park/p21.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p20_card.html'));
 });
 router.get('/park/22', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p22.html'));
