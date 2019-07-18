@@ -14,35 +14,57 @@ router.get('/', function (req, res) {
 });
 
 router.get('/byeon', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/b00.html'));
+    res.sendFile(path.join(__dirname + '/view/byeon/b00.html'));
 });
 router.get('/byeon/01', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/b01.html'));
+    res.sendFile(path.join(__dirname + '/view/byeon/b01.html'));
 });
 router.get('/byeon/02', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/b02.html'));
+    res.sendFile(path.join(__dirname + '/view/byeon/b02.html'));
 });
 router.get('/byeon/03', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/b03.html'));
+    res.sendFile(path.join(__dirname + '/view/byeon/b03.html'));
 });
 router.get('/byeon/04', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/b04.html'));
+    res.sendFile(path.join(__dirname + '/view/byeon/b04.html'));
 });
 router.get('/byeon/05', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/b05.html'));
+    res.sendFile(path.join(__dirname + '/view/byeon/b05.html'));
 });
 router.get('/byeon/06', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/b06.html'));
+    res.sendFile(path.join(__dirname + '/view/byeon/b06.html'));
 });
 router.get('/byeon/07', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/b07.html'));
+    res.sendFile(path.join(__dirname + '/view/byeon/b07.html'));
 });
 router.get('/byeon/08', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/b08.html'));
+    res.sendFile(path.join(__dirname + '/view/byeon/b08.html'));
 });
 router.get('/byeon/09', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/b09.html'));
+    res.sendFile(path.join(__dirname + '/view/byeon/b09.html'));
 });
+router.get('/byeon/10', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b10.html'));
+});
+router.get('/byeon/11', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b11.html'));
+});
+router.get('/byeon/12', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b12.html'));
+});
+router.get('/byeon/13', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b13.html'));
+});
+router.get('/byeon/14', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b14.html'));
+});
+router.get('/byeon/15', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b15.html'));
+});
+router.get('/byeon/16', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b16.html'));
+});
+
 
 
 router.get('/park', function (req, res) {
