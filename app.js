@@ -184,8 +184,8 @@ router.get('/third', function (req, res) {
 });
 router.get('/fourth', function (req, res) {
     console.log(req.query.email);
-    res.send('<br>Request parameters : ' + req.query.email + '<br>Request 비밀번호 : ' + req.query.pwd + '<br>Request 체크박스 : ' + req.query.vehicle
-        + '<br>Request 라디오 : ' + req.query.optradio + '<br>Request 선택메뉴 : ' + req.query.sel1)
+    res.send('<br>Request parameters : ' + req.query.disbled + '<br>Request 비밀번호 : ' + req.query.success + '<br>Request 체크박스 : ' + req.query.warning
+        + '<br>Request 라디오 : ' + req.query.error)
 });
 router.get('/park/19', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p19_components.html'));
@@ -193,11 +193,11 @@ router.get('/park/19', function (req, res) {
 router.get('/park/20', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p20_card.html'));
 });
-router.get('/park/22', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/park/p22.html'));
+router.get('/park/21', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/park/p21_card2.html'));
 });
-router.get('/park/23', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/park/p23.html'));
+router.get('/park/22', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/park/p22_card3.html'));
 });
 router.get('/park/24', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p24.html'));
