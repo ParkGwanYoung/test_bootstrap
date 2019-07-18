@@ -120,7 +120,7 @@ router.get('/park/15', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p15_navbar.html'));
 });
 router.get('/park/16', function (req, res) {
-    res.sendFile(path.join(__dirname + '/view/park/p16.html'));
+    res.sendFile(path.join(__dirname + '/view/park/p16_collapse.html'));
 });
 router.get('/park/17', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p17.html'));
