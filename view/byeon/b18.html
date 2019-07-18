@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <form action="/byeon/18/go">
+            <div class="form-group">
+                <label for="email">
+                    이메일 주소:
+                </label>
+                <input type="email" class="form-control col" id="email" name="email" placeholder="이메일 주소 입력">
+            </div>
+            <div class="form-group form-inline">
+                <label for="pwd">
+                    암호:
+                </label>
+                <input type="password" class="form-control col" id="pwd" placeholder="암호 입력">
+            </div>
+            <div class="form-group">
+                <div class="form-check-inline">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="check1">체크박스 1
+                    </label>
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="check2">체크박스 2
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="radio" value="1">라디오버튼 1
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="radio" value="2">라디오버튼 2
+                    </label>
+                </div>
+                <select name="select" id="sel1" class="form-control col">
+                    <option value="1">선택 1</option>
+                    <option value="2">선택 2</option>
+                    <option value="3">선택 3</option>
+                    <option value="4">선택 4</option>
+                </select>
+                <button type="submit" class="btn btn-primary">제출</button>
+            </div>
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username">
+            </div>
+            <div class="form-group input-group">
+                <input type="text" class="form-control" placeholder="Something clever..">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">OK</button>
+                </div>
+            </div>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="customswitch">
+                <label class="custom-control-label" for="customswitch">Toggle me</label>
+            </div>
+            <div class="form-control-range">
+                <input type="">
+            </div>
+            <div class="form-control-file">
+                <input type="file" class="custom-control-input">
+                <label class="custom-control-label">File</label>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

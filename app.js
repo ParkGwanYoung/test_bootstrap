@@ -64,8 +64,35 @@ router.get('/byeon/15', function (req, res) {
 router.get('/byeon/16', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/byeon/b16.html'));
 });
-
-
+router.get('/byeon/17', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b17.html'));
+});
+router.get('/byeon/18', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b18.html'));
+});
+router.get('/byeon/18/go', function (req, res) {
+    console.log(req.query);
+    res.send('요청된 파라미터<br>이메일: ' + req.query.email + '<br>체크박스 1: ' + req.query.check1 + '<br>체크박스 2: ' + req.query.check2 + '<br>라디오버튼: ' + req.query.radio + '<br>선택: ' + req.query.select)
+});
+router.get('/byeon/19', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b19.html'));
+});
+router.get('/byeon/19/go', function (req, res) {
+    console.log(req.query);
+    res.send('Request parameters : ' + req.query.email)
+});
+router.get('/byeon/20', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b20.html'));
+});
+router.get('/byeon/21', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b21.html'));
+});
+router.get('/byeon/22', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b22.html'));
+});
+router.get('/byeon/23', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b23.html'));
+});
 
 router.get('/park', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p00.html'));
