@@ -14,7 +14,8 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
 <body>
@@ -36,7 +37,7 @@
                     </div>
                     <div class="form-group">
                         <div class="form-check">
-                            <label class="form-check-lable">
+                            <label class="form-check-label">
                                 <input type="checkbox" class="form-check-input" name="rem"> Remember me
                             </label>
                         </div>
@@ -90,22 +91,22 @@
                     <div class="form-group">
                         <div class="input-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text">@</span>
+                                <span class="input-group-text"><span class="fas fa-user"></span></span>
                             </div>
-                            <input type="text" class="form-control" placeholder="Email">
+                            <input type="text" class="form-control" placeholder="Email" name="email2">
                         </div>
                         <div class="input-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text">@</span>
+                                <span class="input-group-text"><span class="fas fa-lock"></span></span>
                             </div>
-                            <input type="text" class="form-control" placeholder="Password">
+                            <input type="password" class="form-control" placeholder="Password" name="pwd2">
                         </div>
                     </div>
                     <div class="form-group input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text">Text</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="Additional Info">
+                        <input type="text" class="form-control" placeholder="Additional Info" name="tmi">
                     </div>
                 </div>
                 <div class="col-6">
@@ -116,15 +117,15 @@
                     </div>
                     <div class="form-group">
                         <label for="success" class="text-success font-weight-bold">Success</label>
-                        <input type="text" class="form-control col is-valid" id="success">
+                        <input type="text" class="form-control col is-valid" id="success" name="success">
                     </div>
                     <div class="form-group">
                         <label for="warning" class="text-warning font-weight-bold">Warning</label>
-                        <input type="text" class="form-control col border-warning" id="warning">
+                        <input type="text" class="form-control col border-warning" id="warning" name="warning">
                     </div>
                     <div class="form-group">
                         <label for="error" class="text-danger font-weight-bold">Error</label>
-                        <input type="text" class="form-control col is-invalid" id="error">
+                        <input type="text" class="form-control col is-invalid" id="error" name="error">
                     </div>
                 </div>
         </form>
