@@ -213,6 +213,15 @@ router.get('/park/22', function (req, res) {
 router.get('/park/23', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/park/p23_card4.html'));
 });
+router.get('/park/24', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/park/p24_modal.html'));
+});
+router.get('/park/23', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/park/p23_card4.html'));
+});
+router.get('/park/23', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/park/p23_card4.html'));
+});
 
 
 
