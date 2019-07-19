@@ -86,7 +86,7 @@ router.get('/byeon/20', function (req, res) {
 });
 router.get('/byeon/20/submit', function (req, res) {
     console.log(req.query);
-    res.send('Request parameters<br>Email 1: ' + req.query.email1 + '<br>Password 1: ' + req.query.pwd1 + '<br>Remeber me: ' + req.query.rem + '<br>Select list: ' + req.query.select + '<br>Multiple select list: ' + req.query.multiple + '<br>Option: ' + req.query.option + '<br>Remeber me: ' + req.query.rem + '<br>Select list: ' + req.query.select)
+    res.send('Request parameters<br>Email 1: ' + req.query.email1 + '<br>Password 1: ' + req.query.pwd1 + '<br>Remeber me: ' + req.query.rem + '<br>Select list: ' + req.query.select + '<br>Multiple select list: ' + req.query.multiple + '<br>Option: ' + req.query.option + '<br>Email 2: ' + req.query.email2 + '<br>Password 2: ' + req.query.pwd2 + '<br>Additional info: ' + req.query.tmi + '<br>Success: ' + req.query.success + '<br>Warning: ' + req.query.warning + '<br>Error: ' + req.query.error)
 });
 router.get('/byeon/21', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/byeon/b21.html'));
@@ -102,6 +102,21 @@ router.get('/byeon/24', function (req, res) {
 });
 router.get('/byeon/25', function (req, res) {
     res.sendFile(path.join(__dirname + '/view/byeon/b25.html'));
+});
+router.get('/byeon/26', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b26.html'));
+});
+router.get('/byeon/27', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b27.html'));
+});
+router.get('/byeon/28', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b28.html'));
+});
+router.get('/byeon/29', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b29.html'));
+});
+router.get('/byeon/30', function (req, res) {
+    res.sendFile(path.join(__dirname + '/view/byeon/b30.html'));
 });
 
 
